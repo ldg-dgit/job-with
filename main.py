@@ -3,7 +3,7 @@ from extractors.indeed import extract_jobs_indeed
 from extractors.we_work_remotely import extract_jobs_wwr
 from file import save_to_file
 
-app = Flask("JobScrapper")
+app = Flask("Job-with")
 
 db = {}
 
